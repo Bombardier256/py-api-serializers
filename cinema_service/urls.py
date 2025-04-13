@@ -6,4 +6,4 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("cinema.urls", namespace="cinema")),
-] + debug_toolbar_urls()
+]
